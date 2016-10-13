@@ -1,0 +1,6 @@
+<%= bootstrap_form_for(searches_path, method: :post) do |f| %>
+  <%= f.text_field :keyword%>
+  <%= f.text_field :source %>
+  <%= f.text_field :url %>
+  <%= f.submit "Add" %>
+<% end %>
